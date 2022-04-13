@@ -16,6 +16,8 @@
 		06DA785E27D676C0006DE9A6 /* Project8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DA785D27D676C0006DE9A6 /* Project8Tests.swift */; };
 		06DA786827D676C0006DE9A6 /* Project8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DA786727D676C0006DE9A6 /* Project8UITests.swift */; };
 		06DA786A27D676C0006DE9A6 /* Project8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DA786927D676C0006DE9A6 /* Project8UITestsLaunchTests.swift */; };
+		06DA787827DE771F006DE9A6 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06DA787627DE771E006DE9A6 /* level1.txt */; };
+		06DA787927DE771F006DE9A6 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06DA787727DE771F006DE9A6 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		06DA786327D676C0006DE9A6 /* Project8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DA786727D676C0006DE9A6 /* Project8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8UITests.swift; sourceTree = "<group>"; };
 		06DA786927D676C0006DE9A6 /* Project8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06DA787627DE771E006DE9A6 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		06DA787727DE771F006DE9A6 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				06DA784F27D676C0006DE9A6 /* Assets.xcassets */,
 				06DA785127D676C0006DE9A6 /* LaunchScreen.storyboard */,
 				06DA785427D676C0006DE9A6 /* Info.plist */,
+				06DA787627DE771E006DE9A6 /* level1.txt */,
+				06DA787727DE771F006DE9A6 /* level2.txt */,
 			);
 			path = Project8;
 			sourceTree = "<group>";
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DA787927DE771F006DE9A6 /* level2.txt in Resources */,
 				06DA785327D676C0006DE9A6 /* LaunchScreen.storyboard in Resources */,
+				06DA787827DE771F006DE9A6 /* level1.txt in Resources */,
 				06DA785027D676C0006DE9A6 /* Assets.xcassets in Resources */,
 				06DA784E27D676BF006DE9A6 /* Main.storyboard in Resources */,
 			);
@@ -437,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WSJB3J72C6;
@@ -452,11 +461,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscar.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -465,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WSJB3J72C6;
@@ -482,9 +493,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
